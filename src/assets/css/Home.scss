@@ -1,0 +1,81 @@
+.home-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-welcome {
+	color: white;
+	font-size: 45px;
+	margin-top: 25px;
+
+	p {
+		font-size: 30px;
+		margin-top: 15px;
+	}
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+	margin-top: 20px;
+	width: 350px;
+	height: 55px;
+	background-color: rgba($color: #4886e2, $alpha: 0.3);
+	border-radius: 50px;
+}
+
+.search input {
+	padding: 20px;
+	margin: 5px;
+	border: none;
+	border-radius: 25px;
+	background-color: rgba($color: #4886e2, $alpha: 0.3);
+	color: #fff;
+	width: 100%;
+
+	&::placeholder {
+		color: #d0e3ff;
+		font-size: 17px;
+	}
+}
+
+.search-button {
+	padding: 10px 13px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #ffffff;
+	border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.castles-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 100%;
+	margin-top: 30px;
+	padding-bottom: 80vh;
+}
+
+.castle-card {
+	display: flex;
+	width: 240px;
+	height: auto;
+	margin: 10px;
+}
+
+.castle-preview img {
+	width: 100%;
+	height: auto;
+}
+
+.castle-title {
+	font-size: 19px;
+	color: white;
+}
